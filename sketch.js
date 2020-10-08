@@ -146,6 +146,7 @@ function draw() {
       if(mousePressedOver(reset_button)) {
         reset_button.visible = false;
         gameover.visible = false;
+        playerdied.visible = false;
         GAMESTATE = 1;
   
         invible_block.x = windowWidth/1.3;
